@@ -1,0 +1,32 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.list-zona {
+    width: 20%; 
+    position: absolute;
+    right: 0; 
+    top: 0;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 550px;
+    padding: 10px;
+}
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+li {
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+.active-li{
+    border: 1px solid red;
+}
